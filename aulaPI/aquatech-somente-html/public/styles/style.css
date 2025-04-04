@@ -1,0 +1,233 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Barlow','Courier New', Courier, monospace;
+}
+
+body {
+
+    background-color: black;
+
+
+}
+
+.container {
+   display: flex;
+
+   width:80%;
+   margin: auto;
+}
+
+/*  pai */
+.header {
+
+    border-bottom: solid white;
+    
+
+
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.header .container>h1 {
+
+    color: rgb(193, 193, 255);
+
+}
+
+.header .container .navbar {
+
+    color: yellow;
+
+
+
+    list-style-type: none;
+
+}
+
+.header .container .navbar {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+.navbar  {
+
+    display: flex;
+    
+    justify-content: space-between;
+
+
+}
+
+
+.navbar a {
+
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.agora {
+
+    font-weight: 900;
+    border-bottom: yellow solid 2px;
+    
+}
+
+/* Banner */
+
+.banner {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 500px;
+
+    width: auto;
+
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+
+    align-items: center;
+
+    color: white;
+
+
+}
+
+.banner .container {
+    width: 30%;
+}
+
+.banner .container p {
+
+    font-size: 55px;
+
+}
+
+.banner .container p span{
+
+    font-weight: 800;
+
+}
+
+/* Social */
+
+.social {
+    background: white;
+}
+
+.box img{
+
+    width: 100px;
+
+}
+
+.boxes {
+    display: flex;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box p {
+    text-align: center;
+}
+
+.social .container {
+    justify-content: space-evenly;
+    
+}
+
+.box h4{
+    color: crimson;
+    font-weight: 900;
+}
+
+/* FOOTER */
+
+.footer{
+    background: darkcyan;
+
+}
+
+.footer .container {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: white;
+}
+
+/* Login */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    height: 500px;
+    display: flex;
+;
+}
+
+.login .container {
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 2%;
+
+}
+
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.campo input {
+    width: 400px;
+    height: 30px;
+    border: solid rgb(4, 0, 255) 1px;
+    border-radius: 5px;
+}
+
+.formulario button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
