@@ -96,21 +96,13 @@ body {
 .banner {
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     height: 500px;
-
     width: auto;
-
     background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
-
     align-items: center;
-
     color: white;
-
 
 }
 
@@ -134,6 +126,7 @@ body {
 
 .social {
     background: white;
+    width: 100%;
 }
 
 .box img{
@@ -160,6 +153,9 @@ body {
 
 .social .container {
     justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -195,6 +191,10 @@ body {
     display: flex;
     color: crimson;
 ;
+}
+
+#cadastro{
+    height: 800px;
 }
 
 .login .container {
